@@ -232,6 +232,6 @@ with tabs3:
         dot_tk.index = sequence
         dot_tk.sort_values(by='Rank', ascending=True, inplace=True)
         dot_tk.columns = ['Nama Sektor',
-                          'Angka Penggandaan Kesempatan Kerja', 'Rank', 'orang']
+                          'Angka Penggandaan Kesempatan Kerja', 'Rank', 'Lapangan Pekerjaan']
         dot_tk.index.name = 'Kode'
         dot_tk
